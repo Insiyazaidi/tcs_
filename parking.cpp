@@ -7,8 +7,8 @@
     cin>>col;
     int arr[row][col];
     int maxone =0;
-int ans =INT_MIN;
-int maxrow =0;
+int ans = 0;
+int maxrow = -1;
     for(int i =0; i<row;i++){
          maxone =0;
         for(int j = 0; j<col;j++){
